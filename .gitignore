@@ -16,3 +16,15 @@ backend/data/*.db
 *.iml
 .DS_Store
 Thumbs.db
+.neon
+node_modules/
+# Front-end build output
+frontend/dist/
+
+# Logs
+*.log
+
+# Local H2 database (all files, including .lock and .trace)
+backend/data/
+.agents/
+skills-lock.json
